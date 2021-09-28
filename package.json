@@ -1,0 +1,20 @@
+{
+    "name": "cypress-e2e-testing-starter-template",
+    "version": "1.0.0",
+    "description": "Cypress E2E Testing Starter Template + Docker",
+    "main": "index.js",
+    "scripts": {
+        "cy:run": "node_modules/cypress/bin/cypress run --headless",
+        "cy:open": "node_modules/cypress/bin/cypress open"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/Guestbyte/Cypress-E2E-Testing-Starter-Template.git"
+    },
+    "author": "Fernando Ortiz de Mello",
+    "license": "ISC",
+    "bugs": {
+        "url": "https://github.com/Guestbyte/Cypress-E2E-Testing-Starter-Template/issues"
+    },
+    "homepage": "https://github.com/Guestbyte/Cypress-E2E-Testing-Starter-Template#readme"
+}
