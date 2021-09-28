@@ -2,7 +2,6 @@
     "name": "cypress-e2e-testing-starter-template",
     "version": "1.0.0",
     "description": "Cypress E2E Testing Starter Template + Docker",
-    "main": "index.js",
     "scripts": {
         "cy:run": "node_modules/cypress/bin/cypress run --headless",
         "cy:open": "node_modules/cypress/bin/cypress open"
@@ -16,5 +15,8 @@
     "bugs": {
         "url": "https://github.com/Guestbyte/Cypress-E2E-Testing-Starter-Template/issues"
     },
-    "homepage": "https://github.com/Guestbyte/Cypress-E2E-Testing-Starter-Template#readme"
+    "homepage": "https://github.com/Guestbyte/Cypress-E2E-Testing-Starter-Template#readme",
+    "devDependencies": {
+        "cypress": "^8.5.0"
+    }
 }
